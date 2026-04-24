@@ -1,0 +1,35 @@
+section {
+    display: flex;
+    height: 90vh;
+    border: 2px dotted black;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    align-content: space-around;
+    gap: 10px;
+}
+
+.red {
+    order: 0;
+    height: 75px;
+    background-color: red;
+}
+
+.green {
+    flex: 1 0 200px;
+    height: 125px;
+    background-color: green;
+}
+
+.blue {
+    height: 100px;
+    background-color: blue;
+}
+
+div {
+    border: 5px solid black;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+}
