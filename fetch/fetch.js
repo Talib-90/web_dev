@@ -110,6 +110,19 @@ main();
 
 // Server.js file
 /*
+Step 1: Create a project
+
+Open terminal and run:
+
+mkdir my-server
+cd my-server
+npm init -y
+
+Step 2: Install Express
+npm install express
+
+---create server---
+
 const express = require('express');
 const cors = require('cors');
 const app = express();
@@ -152,4 +165,6 @@ app.get('/slowApi', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
 });
+
+run node server.js
 */
