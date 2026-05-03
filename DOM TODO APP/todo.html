@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Todo</title>
+    <script src="todo.js" defer></script>
+</head>
+<body>
+    <h1>TODO App</h1>
+    <input type="text" id="taskInput" placeholder="Enter Task">
+    <input id="searchInput" type="text" placeholder="Search..." oninput="handleSearch()">
+    <button onclick="Add()">Add Task</button>
+    
+
+    <ul id="taskList"></ul>
+</body>
+</html>
