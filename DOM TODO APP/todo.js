@@ -7,7 +7,7 @@ function addTask(task) {
     })
 }
 
-function Add() {
+function AddTask() {
     const inputText = document.getElementById("taskInput");
     const value = inputText.value
 

@@ -64,7 +64,3 @@ function countTasks(){
 function sortTasks() {
     todos.sort((a,b) => a.completed - b.completed)
 }
-
-
-
-console.log(todos.map((item,index) => ({item,index})))
